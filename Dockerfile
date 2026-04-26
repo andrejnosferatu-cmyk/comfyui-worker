@@ -1,4 +1,4 @@
-FROM timpietruskyblibla/runpod-worker-comfy:3.4.0-sdxl-1.0
+FROM timpietruskyblibla/runpod-worker-comfy:3.6.0-base
 
 # Download anima-preview3-base checkpoint (~4GB)
 RUN wget -q --show-progress -O /comfyui/models/checkpoints/animaOfficial_preview3Base.safetensors \
